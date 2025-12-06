@@ -16,7 +16,8 @@ Things you may want to cover:
   3. $ bundle install
   4. $ rails db:migrate
   5. $ rails db:seed
-  6. navigate to localhost:3000 in the browser
+  6. $ bin/dev
+  7. navigate to localhost:3000 in the browser
 
 * Configuration
 
