@@ -5,9 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 3.4.7
+* Rails version 8.1.1
 
-* System dependencies
+* Steps to run
+  1. clone the repository
+  2. cd to the project directory
+  3. $ bundle install
+  4. $ yarn install
+  5. $ rails db:migrate
+  6. $ rails db:seed
+  7. navigate to localhost:3000 in the browser
 
 * Configuration
 
