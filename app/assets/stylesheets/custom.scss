@@ -32,7 +32,7 @@ $secondary: $dark-gray;
 
 // Import Bootstrap Styles
 
-@import "bootstrap";
+@use "bootstrap/scss/bootstrap";
 
 // Custom CSS
 
@@ -158,16 +158,16 @@ section.movie-details {
 	@extend .row;
 
 	.image {
-		@extend .col-md-3, .text-left;
+		// @extend .col-md-3, .text-left;
 
 		input[type="submit"] {
 			margin-top: 1rem;
 		}
 	}
 
-	.details {
-		@extend .col-md-7, .text-left;
-	}
+	// .details {
+	// 	@extend .col-md-7, .text-left;
+	// }
 
 	aside {
 		@extend .col-md-2;
@@ -299,7 +299,7 @@ section.user {
 		padding: 1rem;
 
 		.details {
-			@extend .col-md-12, .text-left;
+			// @extend .col-md-12, .text-left;
 
 			.title {
 				font-size: 1.15rem;
