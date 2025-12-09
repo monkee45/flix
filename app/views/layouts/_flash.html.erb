@@ -1,0 +1,13 @@
+
+<% flash.each do |type, message| %>
+  <% bootstrap_class =
+      case type.to_sym
+      when :notice then "alert alert-success"
+      when :alert  then "alert alert-warning"
+      when :error  then "alert alert-danger"
+      else "alert alert-info"
+      end
+  %>
+  <!-- <%= content_tag(:div, message, class: "flash #{type}") %> -->
+  <%= content_tag(:div, message, class: bootstrap_class) %>
+<% end %>
